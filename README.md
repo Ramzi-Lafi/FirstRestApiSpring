@@ -119,6 +119,7 @@ Change the JDBC URL to `jdbc:h2:mem:testdb` and click Connect.
 ---
 
 ## API Endpoints
+<img width="1919" height="908" alt="image" src="https://github.com/user-attachments/assets/050bfc17-b074-44fc-b956-c9b3d9990526" />
 
 ### 1. POST `/api/v1/products` — Create a product
 
@@ -139,7 +140,8 @@ Change the JDBC URL to `jdbc:h2:mem:testdb` and click Connect.
 }
 ```
 
-![POST create product](<img width="1919" height="912" alt="image" src="https://github.com/user-attachments/assets/1f1cf1d9-dfb9-4adf-8e95-4da1f3c904cf" />
+![POST create product](<img width="1918" height="909" alt="image" src="https://github.com/user-attachments/assets/8a78d0e7-165b-41f1-afef-cb63649614fd" />
+
 )
 
 ---
@@ -158,7 +160,8 @@ Change the JDBC URL to `jdbc:h2:mem:testdb` and click Connect.
 }
 ```
 
-![GET product by id](<img width="1916" height="909" alt="image" src="https://github.com/user-attachments/assets/43cf10d4-e830-4b39-a54b-ee2b168ee9f8" />
+![GET product by id](<img width="1919" height="912" alt="image" src="https://github.com/user-attachments/assets/c5b7a0d9-e575-4331-9875-b4bbca2a478c" />
+
 )
 
 ---
@@ -181,7 +184,8 @@ Change the JDBC URL to `jdbc:h2:mem:testdb` and click Connect.
 ]
 ```
 
-![GET all products](<img width="1918" height="909" alt="image" src="https://github.com/user-attachments/assets/f313e97e-99dc-4ae7-a754-5da3e94a0fd2" />
+![GET all products](<img width="1919" height="910" alt="image" src="https://github.com/user-attachments/assets/2806ead1-dcdd-4e68-8ca9-0d9b1e722057" />
+
 )
 
 ---
@@ -207,7 +211,8 @@ Change the JDBC URL to `jdbc:h2:mem:testdb` and click Connect.
 }
 ```
 
-![PUT update product](<img width="1918" height="912" alt="image" src="https://github.com/user-attachments/assets/aeac580b-3db7-40b2-83ad-d9e2735685fe" />
+![PUT update product](<img width="1919" height="908" alt="image" src="https://github.com/user-attachments/assets/fa424c0e-9be0-460a-bf17-bbb65ddb9bc7" />
+
 )
 
 ---
@@ -220,7 +225,8 @@ Change the JDBC URL to `jdbc:h2:mem:testdb` and click Connect.
 
 **Response: 204 No Content**
 
-![DELETE product](<img width="1919" height="911" alt="image" src="https://github.com/user-attachments/assets/aea0e0a8-19ec-4886-8a5a-a5f7ac452ab9" />
+![DELETE product](<img width="1919" height="910" alt="image" src="https://github.com/user-attachments/assets/335d0de8-76ea-42ec-b667-55c8797125bb" />
+
 )
 
 ---
@@ -235,7 +241,8 @@ You can run SQL queries directly in the H2 console:
 SELECT * FROM PRODUCTS;
 ```
 
-![H2 database console](<img width="1919" height="906" alt="image" src="https://github.com/user-attachments/assets/9023a654-fdd4-46d2-87e2-7f238edbbab7" />
+![H2 database console](<img width="1917" height="913" alt="image" src="https://github.com/user-attachments/assets/a3026552-6c5a-4fbc-a6fd-4995422693c4" />
+
 )
 
 ---
@@ -274,16 +281,4 @@ SELECT * FROM PRODUCTS;
 
 ---
 
-## Screenshots
 
-> Place your screenshots in a folder called `screenshots/` in the root of the repository.
-
-| Screenshot | Description |
-|---|---|
-| `screenshots/swagger_ui.png` | Swagger UI showing all endpoints |
-| `screenshots/post_create.png` | POST request creating a product |
-| `screenshots/get_by_id.png` | GET request for one product |
-| `screenshots/get_all.png` | GET request for all products |
-| `screenshots/put_update.png` | PUT request updating a product |
-| `screenshots/delete.png` | DELETE request removing a product |
-| `screenshots/h2_console.png` | H2 database console showing the PRODUCTS table |
